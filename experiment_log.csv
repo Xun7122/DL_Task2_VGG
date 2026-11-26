@@ -3,3 +3,4 @@ baseline,main,completed,0.7409663865546219,0.7557247899159664,0.8269957983193277
 photo_partial_freeze,historical report,completed,0.671516106442577,0.712079831932773,0.7462710084033612,0.3885745257139206,vgg_improvement_report.zip; several settings changed together; code not on this branch
 percentile_partial_freeze,historical report,completed,0.7288778011204482,0.7448179271708684,0.8158000700280111,0.4780338704586029,vgg_improvement_report.zip; several settings changed together; code not on this branch
 clahe_partial_freeze,historical report,completed,0.6662377450980392,0.685968137254902,0.7124649859943977,0.44044673442840576,vgg_improvement_report.zip; several settings changed together; code not on this branch
+ultrasound-vgg16,experiment/ultrasound-vgg16,not_run,,,,,ImageNet VGG16; shared all-FC preparation; compare late-two-block vs full fine-tuning; CAM diagnostics; same Validation
