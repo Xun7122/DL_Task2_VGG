@@ -1,8 +1,14 @@
-# Task 2 — Pretrained VGG11
+# Task 2 — VGG11 약한 밝기·대비 증강 실험
 
-[Colab에서 한 셀로 실행](https://colab.research.google.com/github/Xun7122/DL_Task2_VGG/blob/main/vgg.ipynb)
+[Colab에서 한 셀로 실행](https://colab.research.google.com/github/Xun7122/DL_Task2_VGG/blob/experiment/mild-augmentation/vgg.ipynb)
 
 초음파 영상에서 sheath 유무를 분류하는 VGG11 기준 실험입니다. `main`에 첫 실험의 학습 설정을 보존하고, 개선 후보는 별도 브랜치에서 비교합니다.
+
+## 이번 브랜치의 변경점
+
+기준 모델의 학습 설정을 유지하고 **학습 변환에 ColorJitter(brightness=0.1, contrast=0.1)만 추가**합니다. 밝기와 대비 배율은 각각 0.9~1.1입니다. Validation에는 적용하지 않습니다. 출력 폴더 이름과 config의 실험 이름으로 기준 실행과 구분합니다.
+
+아직 실행하지 않은 후보입니다. 아래 기준 설정표와 첫 실행 점수는 비교 대상인 `main`의 기록입니다. 이 실험 결과로 해석하지 마세요.
 
 ## 실행
 
